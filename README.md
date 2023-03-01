@@ -30,3 +30,10 @@ import simulation as sim
 s = sim.Simulation("config1.csv")
 s.simulate_and_save_network_csvs(name = 'PA')
 ```
+
+### Computer infrastructure
+We run the simulation on a machine with Python 3.8.1 with the following configuration:
+• OS: Ubuntu 18.04.5 LTS
+• RAM: 32GB
+• CPU: Intel® Core™ i7-6700 3.40GHz × 8 cores
+• GPU: GeForce GTX 1060 6GB/PCIe/SSE2
